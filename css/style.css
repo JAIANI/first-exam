@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 header {
   margin-left: 20%;
@@ -210,18 +209,14 @@ header {
 .more a:hover {
   color: #df0000;
 }
-.paragraph {
-  position: static;
-  margin-top: 5px;
-  margin-left: 300px;
-  margin-top: 300px;
-}
-
 .middle-nav {
   margin-top: 20px;
   margin-left: 300px;
   margin-right: 50px;
   padding: 20px;
+}
+.middle-nav a {
+  font-family: "Avenir book";
 }
 .navbar-text a:hover {
   background-color: #c7c6c6;
