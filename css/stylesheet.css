@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: "Avenir LT Std";
+  font-family: "Avenir heavy";
   src: url("../fonts/AvenirLTStd-Black.eot");
   src: url("../fonts/AvenirLTStd-Black.eot?#iefix") format("embedded-opentype"),
     url("../fonts/AvenirLTStd-Black.woff2") format("woff2"),
@@ -37,7 +37,7 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Avenir-Medium";
+  font-family: "Avenir Medium";
   src: url("../fonts/Avenir-Medium\ \(1\).eot");
   src: url("../fonts/Avenir-Medium\ \(1\).eot?#iefix") format("embedded-opentype"),
     url("../fonts/Avenir-Medium\ \(1\).woff2") format("woff2"),

@@ -70,6 +70,7 @@ header {
   color: #fff;
   margin-left: 15px;
   padding: 5px;
+  font-family: "Avener book";
 }
 .Sajon-profile {
   display: none;
@@ -93,12 +94,6 @@ header {
 }
 .text {
   display: flex;
-}
-.text a:hover {
-  color: #000000;
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 5px;
 }
 .line a:hover {
   padding: 5px;
@@ -142,38 +137,6 @@ header {
   color: #000000f1;
   transition: 0.3s;
 }
-/* .active {
-  width: 100%;
-  height: 40px;
-  position: absolute;
-  left: 0;
-  top: 2.5%;
-  z-index: -1;
-  border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
-  display: none;
-} */
-/* .nav-links li:hover ~ .active {
-  display: block;
-}
-.nav-links li:nth-child(1):hover ~ .active {
-  top: 2.5%;
-}
-.nav-links li:nth-child(2):hover ~ .active {
-  top: 22.5%;
-}
-.nav-links li:nth-child(3):hover ~ .active {
-  top: 42.5%;
-}
-.nav-links li:nth-child(4):hover ~ .active {
-  top: 62.5%;
-}
-.nav-links li:nth-child(5):hover ~ .active {
-  top: 82.5%;
-}
-.following h6 {
-  margin-bottom: 40px;
-} */
 .following {
   margin-top: 100px;
   color: white;
@@ -184,6 +147,7 @@ header {
 .following a {
   color: #fff;
   text-decoration: none;
+  font-family: Avenir medium;
 }
 .following a:hover {
   padding: 10px;
@@ -236,6 +200,9 @@ header {
 .cards .card {
   border: none;
 }
+.cards .card .card-text {
+  font-family: " Avenir Medium";
+}
 .card a {
   color: black;
   text-decoration: none;
@@ -254,6 +221,9 @@ header {
 }
 .two-card .card {
   border: none;
+}
+.two-card .card .card-text {
+  font-family: "Avenir Medium";
 }
 .load-more {
   width: 289px;
@@ -290,10 +260,12 @@ header {
 }
 .peoples .card-title {
   padding-top: 10px;
+  font-family: "Avenir Medum";
 }
 .peoples .folowers-card-text {
   padding-top: 10px;
   opacity: 0.6;
+  font-family: "Avenir book";
 }
 
 .cards-group {
@@ -305,6 +277,7 @@ header {
 .cards-group h1 {
   padding-left: 7%;
   padding-top: 30px;
+  font-family: "Avenir heavy";
 }
 .Sajon {
   padding-top: 50px;
@@ -316,6 +289,7 @@ header {
   background-color: #d8d8d8;
   border: none;
   color: #000000;
+  font-family: "Avenir book";
 }
 /* footer */
 .row {
@@ -352,6 +326,7 @@ ul {
   color: #222222;
   display: block;
   transition: all 0.3s ease;
+  font-family: "Avenir book";
 }
 .footer-col ul li a:hover {
   color: #f50606;
@@ -412,6 +387,7 @@ ul {
   }
   .side-nav {
     width: 20%;
+    height: 850px;
   }
   .design,
   .today,
@@ -422,7 +398,10 @@ ul {
     display: none;
   }
   .nav-links i {
-    padding-right: 30px;
+    padding-right: 15px;
+  }
+  .nav-links {
+    margin-top: 100px;
   }
   .nav-links li a i {
     margin-right: 0;
@@ -441,7 +420,14 @@ ul {
   .following .img {
     margin-left: -11px;
   }
-  .headers {
+  .headers a {
+    display: none;
+  }
+  .searcher {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .wrapper .navbar .menu ul li {
     display: none;
   }
   .middle-nav {
